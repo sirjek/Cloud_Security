@@ -1,19 +1,25 @@
 # Identify tools that will allow you to do the following:
 
 ## Scan infrastructure as code templates
-Regula
+Regula,Cloudsploit
 
 ### Example vulnerability
 Overly Permissive IAM Role
+Lack of Encryption
 
 ##Scan AMI’s or containers for OS vulnerabilities
-Ansible
+Tenable.io, image scanning for ECR, Clair
 
 ### Example vulnerability
-Outdated OS system vulnerable to computer virus.
+Outdated OS system
+Dockerfile does not contain any Healthcheck instructions
 
 ##Scan an AWS environment for cloud configuration vulnerabilities
 AWS Inspector
 
 ### Example vulnerability
-Checking for access to your EC2 instance from the internet or vulnerable software installed.
+checking for access to your EC2 instance from the internet
+VPC configuration problems
+MFA NOT ENABLED
+
+
